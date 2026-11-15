@@ -34,7 +34,7 @@ function renderShelf() {
     const saved = parseInt(store.get(`gota-progress-${is.n}`) || "0", 10);
     const cont = saved > 0 && saved < is.pages - 1;
     return `<a class="card" href="read.html?issue=${is.n}${cont ? `&page=${saved}` : ""}">
-      <img src="assets/cover-${pad(is.n)}-thumb.jpg" alt="Issue ${is.n} cover: ${is.title}" loading="lazy">
+      <img src="assets/shelf-${pad(is.n)}.jpg" alt="Issue ${is.n} cover: ${is.title}" loading="lazy">
       <div class="meta"><span class="num">Issue ${is.n}</span><span class="ttl">${is.title}</span>
       <span class="cta">${cont ? `Continue from page ${saved}` : "Read now"}</span></div></a>`;
   }).join("");
