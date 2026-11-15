@@ -12,6 +12,10 @@ const ISSUES = [
   { n: 9, title: "Unmasked" },
   { n: 10, title: "The Truth" },
   { n: 11, title: "The Reveal" },
+  { n: 12, title: "(TBC)" },
+  { n: 13, title: "(TBC)" },
+  { n: 14, title: "(TBC)" },
+  { n: 15, title: "(TBC)" },
 ];
 
 const pad = (n) => String(n).padStart(2, "0");

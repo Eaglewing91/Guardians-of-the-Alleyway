@@ -19,6 +19,10 @@ Issues are released in stages. Only released issues are in this repository.
 | 9 | Unmasked | Coming soon |
 | 10 | The Truth | Coming soon |
 | 11 | The Reveal | Coming soon |
+| 12 | (TBC) | Coming soon |
+| 13 | (TBC) | Coming soon |
+| 14 | (TBC) | Coming soon |
+| 15 | (TBC) | Coming soon |
 
 ## Credits
 
