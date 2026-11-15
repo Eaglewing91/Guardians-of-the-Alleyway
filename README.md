@@ -11,8 +11,8 @@ Issues are released in stages. Only released issues are in this repository.
 | 1 | Born on 39th Street | Out now |
 | 2 | Bad Blood | Coming soon |
 | 3 | Fright Night | Coming soon |
-| 4 | MAol | Coming soon |
-| 5 | MAol Returns | Coming soon |
+| 4 | M'aol | Coming soon |
+| 5 | M'aol Returns | Coming soon |
 | 6 | Packed Lunch | Coming soon |
 | 7 | Breaking News | Coming soon |
 | 8 | The Trail | Coming soon |
