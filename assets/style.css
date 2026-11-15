@@ -30,13 +30,13 @@ a { color: var(--red2); }
 .shelf { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 18px; padding: 10px 0 40px; }
 .card { display: flex; flex-direction: column; background: var(--bg2); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; text-decoration: none; color: var(--text); transition: transform .15s ease, border-color .15s ease; }
 a.card:hover, a.card:focus-visible { transform: translateY(-3px); border-color: var(--red); outline: none; }
-.card img { width: 100%; aspect-ratio: 727 / 1380; object-fit: cover; display: block; background: #000; }
+.card img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: center top; display: block; background: #000; }
 .meta { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 2px; }
 .num { color: var(--red2); font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
 .ttl { font-weight: 800; font-size: 15px; }
 .cta { margin-top: 6px; color: var(--red2); font-size: 13px; font-weight: 700; }
 .locked { opacity: .9; }
-.lockart { aspect-ratio: 727 / 1380; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;
+.lockart { aspect-ratio: 3 / 4; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;
   background: repeating-linear-gradient(135deg, #141416 0 14px, #18181b 14px 28px); border-bottom: 1px solid var(--line); }
 .lock { width: 34px; height: 26px; border: 3px solid var(--dim); border-radius: 5px; position: relative; margin-top: 16px; }
 .lock::before { content: ""; position: absolute; left: 50%; top: -19px; width: 18px; height: 16px; transform: translateX(-50%);

@@ -9,8 +9,8 @@ Issues are released in stages. Only released issues are in this repository.
 | Issue | Title | Status |
 |---|---|---|
 | 1 | Born on 39th Street | Out now |
-| 2 | Bad Blood | Coming soon |
-| 3 | Fright Night | Coming soon |
+| 2 | Bad Blood | Out now |
+| 3 | Fright Night | Out now |
 | 4 | M'aol | Coming soon |
 | 5 | M'aol Returns | Coming soon |
 | 6 | Packed Lunch | Coming soon |

@@ -2,8 +2,8 @@
    Only released issues have pages in this repository. Locked issues are listed by number and title only. */
 const ISSUES = [
   { n: 1, title: "Born on 39th Street", pages: 11, released: true },
-  { n: 2, title: "Bad Blood" },
-  { n: 3, title: "Fright Night" },
+  { n: 2, title: "Bad Blood", pages: 11, released: true },
+  { n: 3, title: "Fright Night", pages: 11, released: true },
   { n: 4, title: "M'aol" },
   { n: 5, title: "M'aol Returns" },
   { n: 6, title: "Packed Lunch" },
@@ -34,7 +34,7 @@ function renderShelf() {
     const saved = parseInt(store.get(`gota-progress-${is.n}`) || "0", 10);
     const cont = saved > 0 && saved < is.pages - 1;
     return `<a class="card" href="read.html?issue=${is.n}${cont ? `&page=${saved}` : ""}">
-      <img src="${is.n === 1 ? "assets/cover-01-thumb.jpg" : pageSrc(is, 0)}" alt="Issue ${is.n} cover: ${is.title}" loading="lazy">
+      <img src="assets/cover-${pad(is.n)}-thumb.jpg" alt="Issue ${is.n} cover: ${is.title}" loading="lazy">
       <div class="meta"><span class="num">Issue ${is.n}</span><span class="ttl">${is.title}</span>
       <span class="cta">${cont ? `Continue from page ${saved}` : "Read now"}</span></div></a>`;
   }).join("");
